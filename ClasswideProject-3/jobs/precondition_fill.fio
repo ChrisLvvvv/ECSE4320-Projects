@@ -1,0 +1,22 @@
+[global]
+ioengine=libaio
+direct=1
+invalidate=1
+group_reporting=1
+time_based=0
+randrepeat=0
+norandommap=1
+thread=1
+filename=${FIO_TARGET}
+refill_buffers=1
+buffer_pattern=0xdeadbeef
+
+# Fill the test range to reduce "fresh SSD / SLC cache" burst effects.
+# Use a large sequential write with a big block size.
+rw=write
+bs=1m
+iodepth=32
+numjobs=1
+size=32g
+
+[fill_seq_write]

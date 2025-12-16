@@ -1,0 +1,5 @@
+{"bench":"smoke","rep":0,"elapsed_ms":45.6588,"sink":2181033595766121601}
+{"bench":"smoke","rep":1,"elapsed_ms":45.2603,"sink":6981931236793207041}
+{"bench":"smoke","rep":2,"elapsed_ms":45.6908,"sink":8113090398266224001}
+{"bench":"smoke","rep":3,"elapsed_ms":50.1764,"sink":1128443088728658433}
+{"bench":"smoke","rep":4,"elapsed_ms":44.8282,"sink":7162882750882756225}

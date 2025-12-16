@@ -1,0 +1,23 @@
+include=jobs/common.fio
+
+[global]
+ioengine=libaio
+direct=1
+invalidate=1
+group_reporting=1
+time_based=1
+runtime=30
+ramp_time=5
+randrepeat=0
+norandommap=1
+percentile_list=50:95:99:99.9
+thread=1
+filename=${FIO_TARGET}
+
+# Data pattern: keep consistent and document.
+# Use random (incompressible-like) to avoid consumer SSD compression effects.
+refill_buffers=1
+buffer_pattern=0xdeadbeef
+
+# Safer defaults for files:
+# If using a file, ensure it is preallocated (fallocate) and large.

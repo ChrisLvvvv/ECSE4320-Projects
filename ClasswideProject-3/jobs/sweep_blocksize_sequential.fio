@@ -1,0 +1,27 @@
+[global]
+ioengine=libaio
+direct=1
+invalidate=1
+group_reporting=1
+time_based=1
+runtime=30
+ramp_time=5
+randrepeat=0
+norandommap=1
+percentile_list=50:95:99:99.9
+thread=1
+filename=${FIO_TARGET}
+refill_buffers=1
+buffer_pattern=0xdeadbeef
+
+rw=read
+iodepth=32
+numjobs=1
+size=32g
+
+[bs_4k]   bs=4k
+[bs_16k]  bs=16k
+[bs_32k]  bs=32k
+[bs_64k]  bs=64k
+[bs_128k] bs=128k
+[bs_256k] bs=256k

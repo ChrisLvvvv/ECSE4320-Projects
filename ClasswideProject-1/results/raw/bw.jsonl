@@ -1,0 +1,3 @@
+{"build":"unknown","dtype":"f32","kernel":"copy","n":8388608,"reps":7,"t_median_ns":4142209.000000,"t_p10_ns":3853591.200000,"t_p90_ns":4754538.200000,"gib_s":15.088567}
+{"build":"unknown","dtype":"f32","kernel":"copy","n":16777216,"reps":7,"t_median_ns":7798543.000000,"t_p10_ns":7567517.200000,"t_p90_ns":7961629.000000,"gib_s":16.028635}
+{"build":"unknown","dtype":"f32","kernel":"copy","n":33554432,"reps":7,"t_median_ns":16716740.000000,"t_p10_ns":16107013.600000,"t_p90_ns":17573014.000000,"gib_s":14.955069}

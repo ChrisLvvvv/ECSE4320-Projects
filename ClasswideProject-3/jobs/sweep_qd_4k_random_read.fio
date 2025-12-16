@@ -1,0 +1,30 @@
+[global]
+ioengine=libaio
+direct=1
+invalidate=1
+group_reporting=1
+time_based=1
+runtime=30
+ramp_time=5
+randrepeat=0
+norandommap=1
+percentile_list=50:95:99:99.9
+thread=1
+filename=${FIO_TARGET}
+refill_buffers=1
+buffer_pattern=0xdeadbeef
+
+rw=randread
+bs=4k
+numjobs=1
+size=16g
+
+[qd_1]   iodepth=1
+[qd_2]   iodepth=2
+[qd_4]   iodepth=4
+[qd_8]   iodepth=8
+[qd_16]  iodepth=16
+[qd_32]  iodepth=32
+[qd_64]  iodepth=64
+[qd_128] iodepth=128
+[qd_256] iodepth=256

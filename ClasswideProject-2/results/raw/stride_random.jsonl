@@ -1,0 +1,9 @@
+{"bench":"stride","bytes":67108864,"stride":64,"write":false,"random":true,"rw_pct":100,"elapsed_ms":252.049,"bandwidth_GBps":5.32506,"touches":20971520,"bandwidth_touch_GBps":5.32506,"ns_per_access":12.0187}
+{"bench":"stride","bytes":67108864,"stride":64,"write":false,"random":true,"rw_pct":100,"elapsed_ms":248.519,"bandwidth_GBps":5.40071,"touches":20971520,"bandwidth_touch_GBps":5.40071,"ns_per_access":11.8503}
+{"bench":"stride","bytes":67108864,"stride":64,"write":false,"random":true,"rw_pct":100,"elapsed_ms":248.006,"bandwidth_GBps":5.41188,"touches":20971520,"bandwidth_touch_GBps":5.41188,"ns_per_access":11.8258}
+{"bench":"stride","bytes":67108864,"stride":256,"write":false,"random":true,"rw_pct":100,"elapsed_ms":83.5198,"bandwidth_GBps":16.0702,"touches":5242880,"bandwidth_touch_GBps":4.01754,"ns_per_access":15.9301}
+{"bench":"stride","bytes":67108864,"stride":256,"write":false,"random":true,"rw_pct":100,"elapsed_ms":86.0455,"bandwidth_GBps":15.5985,"touches":5242880,"bandwidth_touch_GBps":3.89961,"ns_per_access":16.4119}
+{"bench":"stride","bytes":67108864,"stride":256,"write":false,"random":true,"rw_pct":100,"elapsed_ms":86.8182,"bandwidth_GBps":15.4596,"touches":5242880,"bandwidth_touch_GBps":3.86491,"ns_per_access":16.5592}
+{"bench":"stride","bytes":67108864,"stride":1024,"write":false,"random":true,"rw_pct":100,"elapsed_ms":22.1104,"bandwidth_GBps":60.7034,"touches":1310720,"bandwidth_touch_GBps":3.79396,"ns_per_access":16.8689}
+{"bench":"stride","bytes":67108864,"stride":1024,"write":false,"random":true,"rw_pct":100,"elapsed_ms":20.2742,"bandwidth_GBps":66.2012,"touches":1310720,"bandwidth_touch_GBps":4.13758,"ns_per_access":15.468}
+{"bench":"stride","bytes":67108864,"stride":1024,"write":false,"random":true,"rw_pct":100,"elapsed_ms":22.1706,"bandwidth_GBps":60.5386,"touches":1310720,"bandwidth_touch_GBps":3.78366,"ns_per_access":16.9148}

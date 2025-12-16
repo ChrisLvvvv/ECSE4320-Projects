@@ -1,0 +1,44 @@
+############################
+# Build artifacts
+############################
+build/
+bin/
+*.o
+*.out
+*.a
+*.so
+
+############################
+# Python
+############################
+.venv/
+venv/
+env/
+__pycache__/
+*.pyc
+
+############################
+# Editor / OS
+############################
+.vscode/
+.DS_Store
+*.Zone.Identifier
+
+############################
+# Results & data
+############################
+# By default, keep results (needed for reproducibility)
+# Individual projects may choose to regenerate plots
+
+# Ignore regenerated plots if present
+results/plots/
+
+# Keep raw benchmark data and processed tables
+!results/raw/**
+!results/tables/**
+!results/figures/**
+
+############################
+# Temporary
+############################
+*.tmp

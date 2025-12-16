@@ -1,0 +1,1 @@
+{"bench":"pointer_chase","bytes":1048576,"stride":64,"iters":50000000,"random":true,"ns_per_load":6.85322}

@@ -1,0 +1,4 @@
+stride,write,random,mean_bandwidth_GBps,std_bandwidth_GBps,mean_ns_per_access,std_ns_per_access,n
+64,0,0,15.006,0.300,4.266,0.085,3
+256,0,0,22.794,1.559,11.265,0.747,3
+1024,0,0,93.948,4.329,10.915,0.509,3

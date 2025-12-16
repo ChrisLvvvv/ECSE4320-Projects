@@ -1,0 +1,3 @@
+tag,jobfile,jobname,rw,bs,iodepth,numjobs,size,total_iops,total_bw_mib_s,read_mean_us,read_p95_us,read_p99_us,write_mean_us,write_p95_us,write_p99_us
+baseline,baseline_baseline_qd1.json,rand_4k_read_qd1,write,128k,,,16g,23065.808054,1531.1142578125,98.774500734,321.536,897.024,494.133610832,1286.144,4489.216
+fio_tail_latency,fio_tail_latency_tail_latency.json,tail_mid_qd16,,,64,,,245673.772104,959.66796875,323.22932520800003,1122.304,1302.528,0.0,,

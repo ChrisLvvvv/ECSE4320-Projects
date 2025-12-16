@@ -1,0 +1,1 @@
+{"build":"scalar","dtype":"f32","kernel":"axpy","n":65536,"stride":1,"misalign":0,"tail":0,"reps":5,"t_median_ns":16321.000000,"t_p10_ns":15855.400000,"t_p90_ns":17584.400000,"gflops":8.030880,"ai":0.166667}
