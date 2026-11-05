@@ -1,0 +1,19 @@
+# build outputs
+build/
+*.o
+*.out
+*.a
+*.so
+
+# results
+!results/raw/**
+!results/tables/**
+!results/figures/**
+
+# python
+.venv/
+__pycache__/
+*.pyc
+
+# editor
+.vscode/

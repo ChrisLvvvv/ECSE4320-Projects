@@ -1,0 +1,10 @@
+# build artifacts
+build/
+
+# python venv / cache
+.venv/
+__pycache__/
+*.pyc
+
+# editor
+.vscode/
